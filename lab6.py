@@ -19,7 +19,7 @@ while(True):
     except (FileNotFoundError):
         print("Неправильно указан путь!")
         bool = True
-    nextOperation = input("Для просмотра продолжения напишите: продолжить\nДля выхода напишите: выход\n")
+    nextOperation = input("Для продолжения напишите: продолжить\nДля выхода напишите: выход\n")
     if(nextOperation == "выход"):
         break
     elif(nextOperation == "другая"):
