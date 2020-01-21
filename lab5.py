@@ -1,6 +1,4 @@
 import os
-print("Дерево каталогов: ")
-print(os.environ)
 print("Стандартная директория: " + str(os.getcwd()))
 print("Имя: " + str(os.getlogin()))
 while(True):
